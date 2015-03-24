@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">rapidnote</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="click_input_title">点击输入标题</string>
+    <string name="default_category">默认分类</string>
+    <string name="sort">排序</string>
+    <string name="batching">批处理</string>
+    <string name="drawer">背景</string>
+    <string name="note_title">迅Note</string>
+    <string name="title_activity_show_note">ShowNoteActivity</string>
+    <string name="title">标题:</string>
+
+</resources>

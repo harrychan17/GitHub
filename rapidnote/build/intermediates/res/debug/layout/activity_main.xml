@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    tools:context="com.example.activities.MainActivity$PlaceholderFragment" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/wheat" >
+        <TextView 
+            android:id="@+id/top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/note_title"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:id="@+id/btn_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/btn_more" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout_top"
+        android:listSelector="@color/mintcream"
+        android:layout_marginBottom="70dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="6dp"
+        android:numColumns="3">
+    </GridView>
+
+    
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/whitesmoke"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/whitesmoke"
+            android:drawableTop="@drawable/btn_drawer"
+            android:layout_gravity="center_vertical"
+            android:text="@string/drawer" />
+
+        <Button
+            android:id="@+id/btn_batching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/whitesmoke"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@drawable/btn_batching"
+            android:text="@string/batching" />
+		<View 
+		    android:layout_width="80dp"
+		    android:layout_height="64dp"
+		    android:layout_gravity="center"
+		   />
+        <Button
+            android:id="@+id/btn_show_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/whitesmoke"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@drawable/btn_show_note_grid"
+            android:text="视图模式" />
+
+        <Button
+            android:id="@+id/btn_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_weight="1"
+            android:background="@color/whitesmoke"
+            android:drawableTop="@drawable/btn_sort"
+            android:layout_gravity="center_vertical"
+            android:text="@string/sort" />
+    </LinearLayout>
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@id/linearlayout"
+        android:background="@color/greenyellow" />
+
+    <Button
+        android:id="@+id/btn_add_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_add_record" />
+
+</RelativeLayout><!-- From: file:/D:/development/Android/adt-bundle-windows-x86_64-20140702/Workspace/rapidnote/res/layout/activity_main.xml -->

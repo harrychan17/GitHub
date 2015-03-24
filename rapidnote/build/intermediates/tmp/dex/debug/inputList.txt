@@ -1,0 +1,2 @@
+D:\development\Android\adt-bundle-windows-x86_64-20140702\Workspace\rapidnote\build\intermediates\classes\debug
+D:\development\Android\adt-bundle-windows-x86_64-20140702\Workspace\rapidnote\build\intermediates\pre-dexed\debug\android-support-v4-71ae7a4634971a160e42780b6a653197c205454d.jar

@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:drawable="@drawable/btn_recorder_normal" />
+    <item android:state_pressed="true" android:drawable="@drawable/btn_recorder_press" />
+</selector><!-- From: file:/D:/development/Android/adt-bundle-windows-x86_64-20140702/Workspace/rapidnote/res/drawable/recorder_selector.xml -->

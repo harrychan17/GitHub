@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\development\Android\adt-bundle-windows-x86_64-20140702\Workspace\rapidnote\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="D:\development\Android\adt-bundle-windows-x86_64-20140702\Workspace\rapidnote\build\intermediates\pre-dexed\debug\android-support-v4-71ae7a4634971a160e42780b6a653197c205454d.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/translucent"
+    >
+    <TextView
+        android:id="@+id/gridView_item_title"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未命名"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/gridView_item_time"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015-01-01 21:00:00"
+        android:textSize="10sp"/>
+    <TextView
+        android:id="@+id/gridView_item_text"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:lines="3"
+        android:text="——————"
+        />
+    <ImageView
+        android:id="@+id/gridView_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:scaleType="center"
+        android:background="@color/translucent"
+        />
+
+</LinearLayout>
+<!-- From: file:/D:/development/Android/adt-bundle-windows-x86_64-20140702/Workspace/rapidnote/res/layout/gridview_item.xml -->
